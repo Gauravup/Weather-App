@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    background-image: url(image/adobe1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* This ensures the image covers the full body */
+    background-position: center; /* This centers the image */
+    height: 100vh; /* Sets the height to the full viewport height */
+    width: 100vw; /* Sets the width to the full viewport width */
+    margin: 0; /* Removes any default margin */
+    padding: 0; /* Removes any default padding */
+}
+
+
+.main{
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+}
+
+
+.main-container{
+    height: 350px;
+    width: 400px;
+    margin-top: -180px;
+    background-color: rgb(230, 145, 95);
+    border-radius: 20px;
+    box-shadow: olivedrab 0 0 25px ;
+}
+
+h2{
+    padding-left: 130px;
+    border-radius: 8px;
+    background-color: aqua;
+    animation: backcolor 8s infinite;
+
+}
+
+@keyframes backcolor {
+    0% {
+        background-color: red;
+        color: rgb(107, 227, 33);
+    }
+    50% {
+        background-color: yellow;
+        color: rgb(40, 69, 230);
+    }
+    100% {
+        background-color: green;
+        color: white;
+    }
+}
+
+input{
+    margin-left: 20px;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: bisque;
+    
+}
+
+button{
+    height: 27px;
+    width: 90px;
+    border-radius: 15px;
+    margin-left: 50px;
+    background: transparent;
+    
+}
+button:hover{
+    background-color: #2575fc;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 95px;
+    height: 30px;
+}
+
+.photo img{
+    height: 150px;
+    width: 200px;
+    margin-left: 90px;
+    margin-top: 15px;
+    border-radius: 50px;
+}
+
+p{
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
